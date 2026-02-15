@@ -11,6 +11,11 @@ const io = new Server(server, {
   cors: { origin: "*" },
 })
 
+app.get('/',(req,res)=>{
+    res.send("Api is working")
+})
+
+
 let tasks = []
 
 io.on("connection", (socket) => {
