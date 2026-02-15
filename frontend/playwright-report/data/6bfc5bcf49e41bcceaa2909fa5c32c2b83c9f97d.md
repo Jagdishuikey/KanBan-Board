@@ -1,0 +1,50 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - heading "Kanban Board" [level=1] [ref=e7]
+        - paragraph [ref=e8]: Manage your tasks efficiently
+    - generic [ref=e10]:
+      - textbox "Enter a new task..." [ref=e11]
+      - button "Add Task +" [disabled] [ref=e12] [cursor=pointer]:
+        - generic [ref=e13]: Add Task
+        - generic [ref=e14]: +
+    - generic [ref=e15]:
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - heading "To Do (0)" [level=3] [ref=e21]:
+            - text: To Do
+            - generic [ref=e22]: (0)
+          - generic [ref=e23]: Drop tasks here
+          - list
+        - generic [ref=e24]:
+          - heading "In Progress (0)" [level=3] [ref=e27]:
+            - text: In Progress
+            - generic [ref=e28]: (0)
+          - generic [ref=e29]: Drop tasks here
+          - list
+        - generic [ref=e30]:
+          - heading "Done (0)" [level=3] [ref=e33]:
+            - text: Done
+            - generic [ref=e34]: (0)
+          - generic [ref=e35]: Drop tasks here
+          - list
+      - generic [ref=e38]:
+        - heading "Task Progress" [level=2] [ref=e39]
+        - application [ref=e42]:
+          - generic [ref=e43]:
+            - generic [ref=e44]:
+              - generic [ref=e46]: To Do
+              - generic [ref=e48]: In Progress
+              - generic [ref=e50]: Done
+            - generic [ref=e51]:
+              - generic [ref=e53]: "0"
+              - generic [ref=e55]: "1"
+              - generic [ref=e57]: "2"
+              - generic [ref=e59]: "3"
+              - generic [ref=e61]: "4"
+  - generic [ref=e62]: "0"
+```
